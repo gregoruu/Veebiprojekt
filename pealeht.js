@@ -30,3 +30,16 @@ e.addEventListener("click",function(){
 })
 
 })
+document.querySelectorAll('path').forEach(path => {
+    path.addEventListener('mouseover', function () {
+        this.style.transform = 'scale(1.1)';
+        this.style.transformOrigin = '50% 50%'; // Keskpunktist skaleerimine
+        this.style.transition = 'transform 0.3s ease';
+        this.style.fill = '#f7b3b3';
+    });
+
+    path.addEventListener('mouseout', function () {
+        this.style.transform = 'scale(1)';
+        this.style.fill = '#d3d3f7';
+    });
+});

@@ -22,13 +22,16 @@ svg path {
     cursor: pointer;
 }
 svg path:hover{
-    transition: 0.2s;
+    transition: 1s;
     cursor: pointer;
 }
-.section:hover {
-    transform: scale(1.2);
-  }
-  .section {
-    transition: all 1s;
+.section {
+    transition: transform 0.3s ease;
     transform-origin: 50% 50%;
-  }
+}
+
+.section:hover {
+    transform: scale(1.1);
+    fill: #000000;
+}
+
