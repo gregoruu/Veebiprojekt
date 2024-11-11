@@ -33,7 +33,7 @@ e.addEventListener("click",function(){
 document.querySelectorAll('path').forEach(path => {
     path.addEventListener('mouseover', function () {
         this.style.transform = 'scale(1.1)';
-        this.style.transformOrigin = '50% 50%'; // Keskpunktist skaleerimine
+        this.style.transformOrigin = '50% 50%';
         this.style.transition = 'transform 0.3s ease';
         this.style.fill = '#f7b3b3';
     });
