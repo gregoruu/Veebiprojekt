@@ -36,5 +36,8 @@ svg path:hover{
 }
 
 #svg2{
-    border:solid
+    border:solid 1px black;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(136, 137, 190);
 }
