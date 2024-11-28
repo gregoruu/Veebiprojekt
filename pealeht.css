@@ -41,3 +41,6 @@ svg path:hover{
     margin: 0 auto;
     background-color: rgb(136, 137, 190);
 }
+#MainVBTekst{
+    text-align:left;
+}
