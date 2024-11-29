@@ -43,3 +43,4 @@ document.querySelectorAll('path').forEach(path => {
         this.style.fill = '#d3d3f7';
     });
 });
+// Kood kirjutatud ChatGPT abiga
