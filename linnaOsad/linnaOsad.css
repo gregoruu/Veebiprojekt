@@ -1,6 +1,19 @@
-
 #sidePageOVR{
     padding-left:80px;
     padding-right:80px;
+}
+.kast {
+    border: 2px solid #2b2b2b;
+    padding: 10px;
     background-color: gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+img {
+    height: auto; 
+    max-width: 100%;
+}
+body {
+        background-color: gray;
 }
